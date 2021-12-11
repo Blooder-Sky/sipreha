@@ -7,3 +7,4 @@ tensorflow-cpu
 Werkzeug
 pandas
 datetime
+scikit-learn
