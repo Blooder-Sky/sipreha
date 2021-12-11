@@ -5,3 +5,4 @@ numpy
 pickle5 
 tensorflow-cpu
 Werkzeug
+pandas
