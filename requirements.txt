@@ -3,5 +3,5 @@ gunicorn==20.1.0
 keras==2.7.0
 numpy 
 pickle5 
-tensorflow==2.7.0
+tensorflow-cpu
 Werkzeug
