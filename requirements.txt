@@ -1,8 +1,9 @@
 Flask 
-gunicorn==20.1.0
-keras==2.7.0
+gunicorn
+keras
 numpy 
 pickle5 
 tensorflow-cpu
 Werkzeug
 pandas
+datetime
