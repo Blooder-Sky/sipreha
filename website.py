@@ -25,16 +25,11 @@ def index():
         answer = str(harga)
         results.append(answer)
         return render_template('index.html', len=len(results), results=results)
-
-
-                        
-#here we are setting the port. 
-def main():
-    app.run()
     
 
 # Create a running list of result
 results = []
 
 # Launch Everyting
-main()
+if __name__ == '__main__':
+    app.run(debug=True)
