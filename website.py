@@ -6,7 +6,7 @@ from prediksi_harga import prediksiHarga
 
 app = Flask(__name__)
 
-app.config["DEBUG"] = False
+app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET','POST'])
 def index():
